@@ -187,7 +187,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0 10px 30px;
   font-family: "SFUIDisplay-Regular", sans-serif;
   font-size: 15px;
-  color: #000;
+  color: #19191A;
   font-weight: 500;
   white-space: nowrap;
   transition: 0.3s;
@@ -778,6 +778,7 @@ width:44px;}
 }
 #portfolio #portfolio-flters li {
   cursor: pointer;
+  font-family: 'SFUIDisplay-Regular';
   margin: 15px 15px 15px 0;
   display: inline-block;
   padding: 6px 20px;
@@ -837,7 +838,7 @@ width:44px;}
   color: #fff;
 }
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
-  color: #6150ff;
+  color: #000;
 }
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
   padding: 0;
@@ -1324,12 +1325,6 @@ width:44px;}
   color: #fff;
 }
 
-#footer .footer-top .footer-contact {
-  float: left;
-  font-size: 20px;
-  font-family: 'SFUIDisplay-Regular', sans-serif;
-}
-
 #footer .footer-top .footer-mail {
   margin-top: 100px;
   float: left;
@@ -1337,10 +1332,18 @@ width:44px;}
   font-family: 'SFUIDisplay-Regular', sans-serif;
 }
 
+#footer .footer-top .footer-contact {
+  float: left;
+  font-size: 20px;
+  margin-top: 15px;
+  font-family: 'SFUIDisplay-Regular', sans-serif;
+}
+
 #footer .footer-top .footer-address {
   float: left;
-  display: inline-flex;
+  /* display: inline-flex; */
   font-size: 20px;
+  margin-top: 15px;
   font-family: 'SFUIDisplay-Regular', sans-serif;
 }
 
