@@ -1315,11 +1315,13 @@ width:44px;}
   width: 36px;
   height: 36px;
   transition: 0.3s;
+  
 }
 #footer .footer-top .social-links a i {
-  line-height: 0;
+  line-height: 0;  
   font-size: 27px;
 }
+
 #footer .footer-top .social-links a:hover {
   background: #0067d5;
   color: #fff;
