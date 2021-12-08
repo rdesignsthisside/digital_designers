@@ -1009,7 +1009,8 @@ width:44px;}
 --------------------------------*/
 #testimonials {
   padding: 60px 0;
-  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  /* box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1); */
+  background-color: #F4F3FF;
 }
 #testimonials .section-header {
   margin-bottom: 40px;
@@ -1144,7 +1145,7 @@ width:44px;}
 --------------------------------*/
 #clients {
   padding: 60px 0;
-  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  /* box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1); */
 }
 
 #clients .section-header h3 {
