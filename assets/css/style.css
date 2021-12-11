@@ -178,15 +178,13 @@ a.float-whatsapp:hover {
   padding: 0;
   height: 48px;
 }
-@media (max-width: 991px) {
-  #header .logo h1 {
-    font-size: 28px;
+
+@media (max-width: 767px) {
+  #header .logo {
+    margin-left: 10px;
   }
 }
-#header .logo h1 a, #header .logo h1 a:hover {
-  color: #00366f;
-  text-decoration: none;
-}
+
 #header .logo img {
   padding: 0;
   max-height: 53px;
@@ -282,6 +280,11 @@ a.float-whatsapp:hover {
   font-size: 12px;
 }
 
+.navbar ul li a.btn-primary {
+  margin-left: 57px;
+  padding: 8px 16px;
+}
+
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
@@ -334,10 +337,12 @@ a.float-whatsapp:hover {
 .navbar-mobile ul {
   display: block;
   position: absolute;
+  height: 100%;
+  width: 100%;
   top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
+  /* right: 15px; */
+  /* bottom: 15px; */
+  /* left: 15px; */
   padding: 10px 0;
   background-color: #fff;
   overflow-y: auto;
@@ -379,10 +384,9 @@ a.float-whatsapp:hover {
 }
 
 .navbar-mobile ul li a.btn-primary {
-  width: 150px;
-  height: auto;
-  text-align: center;
+  display: none;
 }
+
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -441,7 +445,7 @@ a.float-whatsapp:hover {
 
 @media (max-width: 767px) {
   #hero {
-    margin: 0 0 0 0;
+    margin: 0 0 0 10px;
   }
 
   #hero .hero-info {
@@ -1324,7 +1328,7 @@ width:44px;}
 --------------------------------------------------------------*/
 #footer {
   background: #242424;
-  padding: 0 0 30px 0;
+  padding: 0 0 8px 0;
   color: #eee;
   font-size: 14px;
 }
@@ -1475,18 +1479,18 @@ width:44px;}
 
 #footer .copyright {
   text-align: center;
-  padding-top: 30px;
-}
-#footer .credits {
-  text-align: center;
-  font-size: 13px;
+  padding-top: 8px;
+  font-family: 'SFUIDisplay-Regular', sans-serif;
   color: #f1f7ff;
+  font-size: 13px;
 }
-#footer .credits a {
+
+#footer .copyright a {
   color: #6150ff;
 }
-#footer .credits a:hover {
+#footer .copyright a:hover {
   color: #f1f7ff;
 }
+
 
 
