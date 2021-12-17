@@ -179,7 +179,7 @@ a.float-whatsapp:hover {
   height: 48px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   #header .logo {
     margin-left: 10px;
   }
@@ -443,7 +443,7 @@ a.float-whatsapp:hover {
   text-decoration: underline;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   #hero {
     margin: 0 0 0 10px;
   }
@@ -533,7 +533,7 @@ section {
   color: #556877;
   width: 50%;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .section-header p {
     width: 100%;
   }
@@ -1028,7 +1028,7 @@ width:44px;}
 #testimonials .testimonials-carousel, #testimonials .testimonials-slider {
   overflow: hidden;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   #testimonials .testimonial-item {
     text-align: center;
   }
@@ -1059,7 +1059,7 @@ width:44px;}
     width: 80%;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   #testimonials .testimonial-item h3, #testimonials .testimonial-item h4, #testimonials .testimonial-item p {
     margin-left: 0;
   }
@@ -1178,6 +1178,18 @@ width:44px;}
 }
 #clients img {
   transition: all 0.4s ease-in-out;
+}
+
+@media (max-width : 992px) {
+  #clients .client-logo {
+    padding: 25px;
+  }
+}
+
+@media (max-width : 1200px) {
+  #clients .client-logo {
+    padding: 40px;
+  }
 }
 
 /* Contact Section
@@ -1356,7 +1368,7 @@ width:44px;}
   color: #fff;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   #footer .footer-top .footer-info a {
     font-size: 40px;
   }
@@ -1399,7 +1411,7 @@ width:44px;}
   transition: 0.3s; 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   #footer .footer-top .social-links {
     float:none;
     /* display: inline-flex; */
