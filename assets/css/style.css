@@ -438,14 +438,9 @@ a.float-whatsapp:hover {
   }
 }
 
-#hero .hero-info h2 span {
-  color: #74b5fc;
-  text-decoration: underline;
-}
-
 @media (max-width: 768px) {
   #hero {
-    margin: 0 0 0 10px;
+    margin: 0;
   }
 
   #hero .hero-info {
@@ -464,11 +459,11 @@ a.float-whatsapp:hover {
 @media (max-width: 576px) {
 
   #hero .hero-info h2 {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   #hero .hero-info p {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
@@ -476,6 +471,7 @@ a.float-whatsapp:hover {
 #hero .hero-info .btn-primary:hover {
   background-color: #6150FF;
 }
+
 
 /* #hero .hero-info .btn-get-started, #hero .hero-info .btn-services {
   font-family: "SFUIDisplay-Regular", sans-serif;
@@ -744,8 +740,7 @@ width:44px;}
 
 @media (max-width: 991px) {
   #about .about-container .img-fluid {
-    margin: 0 auto 20px;
-    float: none;
+    display: none;
   }
 
 }
@@ -1163,7 +1158,7 @@ width:44px;}
   margin-bottom: 30px;
 }
 #clients .client-logo {
-  padding: 64px;
+  padding: 45px 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1173,26 +1168,30 @@ width:44px;}
   background: #fff;
   height: 160px;
 }
+#clients .client-logo:hover img {
+  transform: scale(1.2);
+}
 #clients img {
   transition: all 0.4s ease-in-out;
   height: 70px;
+  /* width: 130px; */
 }
 
-@media (max-width : 992px) {
+@media (max-width:1200px) {
   #clients .client-logo {
-    padding: 25px;
+    padding: 40px 35px;
   }
 }
 
-@media (max-width : 576px) {
+@media (max-width:992px) {
   #clients .client-logo {
-    padding: 20px;
+    padding: 30px 25px;
   }
 }
 
-@media (max-width : 1200px) {
+@media (max-width:576px) {
   #clients .client-logo {
-    padding: 40px;
+    padding: 25px 20px;
   }
 }
 
@@ -1449,11 +1448,19 @@ width:44px;}
   font-family: 'SFUIDisplay-Regular', sans-serif;
 }
 
+#footer .footer-top .footer-mail a {
+  color: #fff;
+}
+
 #footer .footer-top .footer-contact {
   float: left;
   font-size: 20px;
   margin-top: 15px;
   font-family: 'SFUIDisplay-Regular', sans-serif;
+}
+
+#footer .footer-top .footer-contact a {
+  color: #fff;
 }
 
 #footer .footer-top .footer-address {
