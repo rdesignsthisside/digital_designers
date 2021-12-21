@@ -443,6 +443,10 @@ a.float-whatsapp:hover {
     margin: 0;
   }
 
+  #hero {
+    padding-left: 10px;
+  }
+
   #hero .hero-info {
     width: 100%;
   }
@@ -459,11 +463,11 @@ a.float-whatsapp:hover {
 @media (max-width: 576px) {
 
   #hero .hero-info h2 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   #hero .hero-info p {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
