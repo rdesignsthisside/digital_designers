@@ -1520,4 +1520,39 @@ width:44px;}
 }
 
 
+/* ======================================= Inner Page ======================================== */
+
+
+
+.inner-page h1 {
+  font-size: 60px;
+  font-family: 'SFUIDisplay-medium' , sans-serif;
+}
+
+..inner-page, .inner-page h3, .inner-page h5 {
+  font-family: 'SFUIDisplay-regular' , sans-serif;
+}
+
+.inner-page h3 {
+  font-size: 42px;
+}
+
+.inner-page h5 {
+  font-size: 35px;
+}
+
+.inner-page {
+  font-size: 24px; 
+}
+
+.inner-page, .inner-page a {
+  color: #303030;
+}
+
+.inner-page .analytics-link, .inner-page .contact-mail {
+  font-family: 'SFUIDisplay-semibold', sans-serif;
+  text-decoration: underline;
+}
+
+
 
