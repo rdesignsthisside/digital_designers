@@ -547,7 +547,7 @@ background: #fff;
 /* Services Section
 --------------------------------*/
 #services {
-padding: 60px 0 40px 0;
+padding: 80px 0 40px 0;
 /* box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1); */
 }
 
@@ -601,6 +601,11 @@ margin-bottom: 0;
 }
 
 
+@media screen and (max-width: 768px) {
+  #services {
+    padding: 60px 0 40px 0;
+  }
+}
 
 /*--------------------------------------------------------------
 # Breadcrumbs
