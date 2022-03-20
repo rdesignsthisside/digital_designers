@@ -498,6 +498,7 @@ position: relative;
 
   #hero .banner .banner-navigation .manual-btn {
     padding: 3px;
+    border: 1px solid #000;
   }
   
 }
