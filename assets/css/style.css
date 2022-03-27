@@ -415,40 +415,34 @@ display: none;
 }
 
 #hero ul.owl-carousel .owl-nav button {
-  background-color: #6150ff;
+  background-color: transparent;
   border: none;
   height: 40px;
-  width: 20px;
+  width: 15px;
   position: absolute;
   top: 50%;
   bottom: 0;
 }
 
 #hero ul.owl-carousel .owl-nav button.owl-prev {
-  left: 0;
+  left: 5px;
 }
 
 #hero ul.owl-carousel .owl-nav button.owl-next {
-  right: 0;
+  right: 10px;
 }
 
 #hero ul.owl-carousel .owl-nav button span {
-  color: #fff;
-  font-size: 30px;
+  color: #6150ff;
+  font-size: 40px;
   display: block;
   margin-top: -4px;
 }
 
-#hero ul.owl-carousel .owl-nav button.owl-prev span {
-  margin-left: -3px;
-}
-
-#hero ul.owl-carousel .owl-nav button.owl-next span {
-  margin-right: -3px;
-}
 
 
 @media screen and (max-width: 768px) {
+
   #hero ul.owl-carousel .owl-nav button {
     height: 25px;
     width: 18px;
@@ -456,7 +450,7 @@ display: none;
 
   
   #hero ul.owl-carousel .owl-nav button span {
-    font-size: 20px;
+    font-size: 30px;
   }
 
 }
