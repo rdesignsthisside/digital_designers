@@ -391,121 +391,74 @@ display: none;
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-width: 100%;
-position: relative;
-}
-
-#hero .banner {
-  justify-content: center;
-  overflow-x: clip;
-  overflow-y: visible;
-}
-
-#hero .banner .header-banner {
-  display: flex;
-  width: 500%;
-  height: 653px;
-  overflow-x: clip;
-  overflow-y: visible;
+  width: 100%;
+  position: relative;
   margin-top: 80px;
 }
 
-#hero .banner .header-banner input {
-  display: none;
+#hero ul.owl-carousel {
+  padding: 0;
+  list-style: none;
+  position: relative;
 }
 
-#hero .banner .header-banner div {
-  width: 20%;
-  transition: 1s;
+#hero ul.owl-carousel .owl-stage-outer {
+  overflow: hidden;
 }
 
-#hero .banner .header-banner div img {
-  width: 100%;
-  height: 100%;
-}
-
-#hero .banner .banner-navigation {
-  position: absolute;
-  width: 100%;
-  margin-top: 20px;
+#hero ul.owl-carousel .owl-stage-outer .owl-stage {
   display: flex;
-  justify-content: center;
-  z-index: 20;
 }
 
-#hero .banner .banner-navigation .manual-btn {
-  border: 2px solid #000;
-  padding: 5px;
-  border-radius: 25px;
-  cursor: pointer;
-  transition: 0.3s;
+#hero ul.owl-carousel .owl-stage-outer .owl-stage .owl-item li a img {
+  width: 100%;
 }
 
-#hero .banner .banner-navigation .manual-btn:not(:last-child) {
-  margin-right: 20px;
+#hero ul.owl-carousel .owl-nav button {
+  background-color: #6150ff;
+  border: none;
+  height: 40px;
+  width: 20px;
+  position: absolute;
+  top: 50%;
+  bottom: 0;
 }
 
-#hero .banner .banner-navigation .manual-btn:hover {
-  background-color: #000;
+#hero ul.owl-carousel .owl-nav button.owl-prev {
+  left: 0;
 }
 
-#hero .banner .header-banner input#radio-1:checked ~ .first {
-  margin-left: 0;
+#hero ul.owl-carousel .owl-nav button.owl-next {
+  right: 0;
 }
 
-#hero .banner .header-banner input#radio-2:checked ~ .first {
-  margin-left: -20%;
+#hero ul.owl-carousel .owl-nav button span {
+  color: #fff;
+  font-size: 30px;
+  display: block;
+  margin-top: -4px;
 }
 
-#hero .banner .header-banner input#radio-3:checked ~ .first {
-  margin-left: -40%;
+#hero ul.owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -3px;
 }
 
-#hero .banner .header-banner input#radio-4:checked ~ .first {
-  margin-left: -60%;
+#hero ul.owl-carousel .owl-nav button.owl-next span {
+  margin-right: -3px;
 }
 
 
-@media (max-width: 991px) {
-
-
-  #hero .banner .header-banner {
-    height: 303px;
+@media screen and (max-width: 768px) {
+  #hero ul.owl-carousel .owl-nav button {
+    height: 25px;
+    width: 18px;
   }
 
-}
-
-@media (max-width: 768px) {
-  #hero {
-    margin: 0;
-  }
-
-  #hero .banner .header-banner {
-    height: 253px;
-  }
-
-}
-
-@media (max-width: 576px) {
-
-  #hero .banner .header-banner {
-    height: 170px;
-  }
-
-  #hero .banner .banner-navigation {
-    margin-top: 10px;
-  }
-
-  #hero .banner .banner-navigation .manual-btn {
-    padding: 3px;
-    border: 1px solid #000;
-  }
   
-}
+  #hero ul.owl-carousel .owl-nav button span {
+    font-size: 20px;
+  }
 
-
-#hero .hero-info .btn-primary:hover {
-background-color: #6150FF;
 }
 
 /*--------------------------------------------------------------

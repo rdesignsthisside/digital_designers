@@ -92,37 +92,12 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="clearfix">
 
-
-    <div class="banner conatiner">
-      <div class="header-banner">
-
-          <input type="radio" name="radio-btn" id="radio-1">
-          <input type="radio" name="radio-btn" id="radio-2">
-          <input type="radio" name="radio-btn" id="radio-3">
-          <input type="radio" name="radio-btn" id="radio-4">
-
-          <div class="banner-1 first">
-              <img src="./assets/img/customize-website.png" alt="customize-website-banner">
-          </div>
-          <div class="banner-2">
-              <img src="./assets/img/zero-to-hero.png" alt="zero-to-hero-banner">
-          </div>
-          <div class="banner-3">
-              <img src="./assets/img/packaging-design.png" alt="packaging-design-banner">
-          </div>
-          <div class="banner-4">
-              <img src="./assets/img/vissible-in-market.png" alt="vissible-in-market-banner">
-          </div>
-      </div>
-      
-      <div class="banner-navigation">
-          <label for="radio-1" class="manual-btn"></label>
-          <label for="radio-2" class="manual-btn"></label>
-          <label for="radio-3" class="manual-btn"></label>
-          <label for="radio-4" class="manual-btn"></label>
-      </div>
-
-    </div>
+    <ul class="owl-carousel">
+      <li><a href=""><img src="./assets/img/customize-website.png" alt=""></a></li>
+      <li><a href=""><img src="./assets/img/zero-to-hero.png" alt=""></a></li>
+      <li><a href=""><img src="./assets/img/packaging-design.png" alt=""></a></li>
+      <li><a href=""><img src="./assets/img/vissible-in-market.png" alt=""></a></li>
+    </ul>
 
   </section><!-- End Hero Section -->
 
@@ -997,6 +972,7 @@
   <!-- JQuery -->
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script type="text/javascript">
 
     $(document).ready(function(){
@@ -1017,14 +993,27 @@
 
    </script>
 
-   <script>
+  <script>
 
-  //   $(function()  {
-  //     $("img.img-fluid").lazyload();
-  //   });
-
-
-  // </script>
+    $('#hero .owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        dots:false,
+        autoplay:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:1
+            }
+        }
+    }) 
+  </script>
 
 </body>
 
