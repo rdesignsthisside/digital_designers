@@ -425,11 +425,11 @@ display: none;
 }
 
 #hero ul.owl-carousel .owl-nav button.owl-prev {
-  left: 5px;
+  left: 0px;
 }
 
 #hero ul.owl-carousel .owl-nav button.owl-next {
-  right: 10px;
+  right: 15px;
 }
 
 #hero ul.owl-carousel .owl-nav button span {
@@ -451,6 +451,11 @@ display: none;
   
   #hero ul.owl-carousel .owl-nav button span {
     font-size: 30px;
+  }
+
+  
+  #hero ul.owl-carousel .owl-nav button.owl-next {
+    right: 10px;
   }
 
 }
