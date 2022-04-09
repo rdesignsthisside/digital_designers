@@ -1889,7 +1889,7 @@ body.blue-bg #header.header-scrolled {
 }
 
 .events .container-4 .img-box {
-  margin-top: -20px;
+  margin-top: -90px;
 }
 
 
@@ -1955,6 +1955,10 @@ body.blue-bg #header.header-scrolled {
     left: 35px;
   }
 
+  .events .container-4 .img-box {
+    margin-top: -60px;
+  }
+
   .events .container-5 h1 {
     font-size: 75px;
     line-height: 110px;
@@ -1989,6 +1993,10 @@ body.blue-bg #header.header-scrolled {
     font-size: 50px;
     line-height: 55px;
     margin-top: 10px;
+  }
+
+  .events .container-4 .img-text-content {
+    margin-top: 15%;
   }
   
   .events .container-5 h1 {
@@ -2028,6 +2036,14 @@ body.blue-bg #header.header-scrolled {
 
   .events .container-4 .img-text-content .points ul {
     padding-left: 60px;
+  }
+
+  .events .container-4 .img-text-content {
+    margin-top: 10%;
+  }
+
+  .events .container-4 .img-box {
+    margin-top: 0px;
   }
 
 }
