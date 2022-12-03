@@ -683,6 +683,9 @@ header div#header .mobile-menu-icon {
   }
 
 
+  header div#header .contact-us-btn a {
+    padding: 12px 15px;
+  }
 
 
 
@@ -696,6 +699,7 @@ header div#header .mobile-menu-icon {
 
   .creative-agency .section-heading img {
     max-width: 310px;
+    margin: 0 auto;
   }
 
   .creative-agency .section-heading p {
